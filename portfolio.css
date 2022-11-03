@@ -1,0 +1,78 @@
+body{
+    height:100%;
+}
+img.profile{
+    padding-top:10px;
+}
+img.Certifications{
+    height:300px;
+    border-color: rgb(71, 71, 71);
+    border:3px;
+    
+}
+.content{
+    text-align:left;
+    color: rgb(212, 212, 212);
+    padding-top:10%;
+    padding-left: 10%;
+}
+.left{
+    background-color: rgb(34, 34, 34);
+    height:100%;
+    width:30%;
+    float:left;
+    text-align:center;
+    overflow: auto;
+}
+.right{
+    background-color: rgb(241, 234, 240);
+    height:100%;
+    width:70%;
+    float:right;
+    overflow: scroll;
+}
+.leftcontent{
+    padding-top: 500;
+}
+.title{
+    font-family:Arial;
+    padding-top:-30px;
+    
+}
+.rcontent{
+    padding-left:20px;
+    padding-top:-40px;
+}
+.subtitle{
+    font-size:20pt;
+    font-weight: bold;
+}
+tr:nth-child(even){
+    background-color:rgb(185, 185, 185) ;
+}
+table{
+    border-collapse:collapse;
+    width:90%;
+}
+td{
+    padding:2%;
+}
+.subt{
+    background-color:rgb(65, 63, 63);
+    height:30px;
+    color:rgb(180, 180, 180);
+    padding-top:5%;
+    margin:5px;
+    text-decoration: none;
+}
+
+.content2{
+    padding-left:10%;
+    padding-right:10%;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.Skills{
+    font-size:15pt;
+}
